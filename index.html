@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <section class="product-section">
+
+            <div style="background-color: #67769e; border-radius: 20px;padding: 30px;" class="store">
+                <div style="display: flex; justify-content:space-between;">
+                    <h1>Store</h1> <input id="store_search_box" placeholder="Search in store" />
+                </div>
+                <div class="swiper mySwiper" style="position: relative;">
+                    <div id="product-container" class="product-container swiper-wrapper">
+
+                    </div>
+                    <button id="swiper-button-prev" class="swiper-button-prev swiper-btn"
+                        style="position:absolute;top:50%;left: 0;"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-chevrons-left" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M11 7l-5 5l5 5" />
+                            <path d="M17 7l-5 5l5 5" />
+                        </svg></button>
+                    <button id="swiper-button-next" class="swiper-button-next swiper-btn"
+                        style="position:absolute;top:50%;right: 0;"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-chevrons-right" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 7l5 5l-5 5" />
+                            <path d="M13 7l5 5l-5 5" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
